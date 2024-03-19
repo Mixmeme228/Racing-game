@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool PauseGame;
     public GameObject pauseMenu;
+    public AudioSource soundtrack;
 
     void Update()
     {
@@ -28,6 +29,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         PauseGame = false;
+        soundtrack.Play();
     }
 
     public void Pause()
@@ -35,7 +37,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         PauseGame = true;
-
+        soundtrack.Pause();
     }
 
     public void LoadMenu()
