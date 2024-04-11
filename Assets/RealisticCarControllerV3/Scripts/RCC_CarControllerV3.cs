@@ -20,7 +20,7 @@ using UnityEngine.EventSystems;
 /// Main vehicle controller script that includes Wheels, Steering, Suspensions, Mechanic Configuration, Stability, Lights, Sounds, and Damage in AIO.
 /// </summary>
 public class RCC_CarControllerV3 : RCC_Core {
-
+    public GameObject Vechine;
     #region OBSOLETE VARIABLES
 
     [System.Obsolete("Use AllWheelColliders instead of allWheelColliders")]
@@ -256,7 +256,10 @@ public class RCC_CarControllerV3 : RCC_Core {
     public float engineHeatRate = 1f;                               // Engine heat multiplier.
     public float engineCoolRate = 1f;                               // Engine cool multiplier.
     #endregion
-
+    public void Start()
+    {
+        RCC.RegisterPlayerVehicle(this);
+    }
     #region Gears
     // Gears.
     [System.Serializable]
