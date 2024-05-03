@@ -39,7 +39,7 @@ public class RCC_AICarController : MonoBehaviour {
     public enum NavigationMode { FollowWaypoints, ChaseTarget, FollowTarget }
 
     // Raycast distances used for detecting obstacles at front of the AI vehicle.
-    [Range(5f, 30f)] public float raycastLength = 3f;
+    [Range(0.5f, 30f)] public float raycastLength = 3f;
     [Range(10f, 90f)] public float raycastAngle = 30f;
     public LayerMask obstacleLayers = -1;
     public GameObject obstacle;

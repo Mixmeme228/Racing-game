@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ai road
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,8 +13,8 @@ TagManager:
   - Road
   - Water
   - UI
-  - 
-  - 
+  - Map
+  - Player
   - RCC
   - RCC_WheelCollider
   - RCC_DetachablePart

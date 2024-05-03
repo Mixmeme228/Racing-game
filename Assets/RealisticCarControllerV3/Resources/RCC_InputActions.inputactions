@@ -700,17 +700,6 @@
                 },
                 {
                     "name": "",
-                    "id": "2252f11a-7704-4821-84b9-3abbcc3b2527",
-                    "path": "<Keyboard>/i",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Start/Stop Engine",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e47a5c95-3e0c-4635-a53e-fd10b8d4047f",
                     "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
@@ -898,17 +887,6 @@
                 },
                 {
                     "name": "",
-                    "id": "4ce9aa29-2ded-426a-9ad1-66520c441d57",
-                    "path": "<Keyboard>/shift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Gear Shift Up",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "88696b5a-7de1-487d-9432-72ff1f524543",
                     "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
@@ -942,17 +920,6 @@
                 },
                 {
                     "name": "",
-                    "id": "a3802bd2-36a4-413e-8167-4a340771200f",
-                    "path": "<Keyboard>/ctrl",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Gear Shift Down",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "a79f57a5-8548-4707-a04f-c90d4145e24e",
                     "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
@@ -981,17 +948,6 @@
                     "processors": "",
                     "groups": "Oculus Quest",
                     "action": "Gear Shift Down",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "43b23f3e-b99b-410c-ab1a-494f337ce92d",
-                    "path": "<Keyboard>/t",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Trailer Detach",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1113,17 +1069,6 @@
                     "processors": "",
                     "groups": "Oculus Quest",
                     "action": "NOS",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5e4d36f2-15d1-4f09-984f-f79157b2dbf6",
-                    "path": "<Keyboard>/n",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "N Gear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1480,41 +1425,7 @@
                     "initialStateCheck": false
                 }
             ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "7e7f1b75-4234-4221-9430-5009b0189f41",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Record",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "470d0d53-dcb2-4cb0-a5a0-add83c1f0eec",
-                    "path": "<Keyboard>/p",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Replay",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7babc1f5-e42a-4a07-b608-403cd4d3e66e",
-                    "path": "<Keyboard>/g",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard Mouse",
-                    "action": "Slow Motion",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
+            "bindings": []
         }
     ],
     "controlSchemes": [
