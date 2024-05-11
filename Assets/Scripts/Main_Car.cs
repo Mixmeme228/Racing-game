@@ -26,7 +26,7 @@ public class Main_Car : MonoBehaviour
         {
             transform.GetComponent<RCC_CarControllerV3>().maxspeed = 175;
         }
-        else if (car.GetComponent<Checkpoint_Car>().Srav - transform.GetComponent<Checkpoint_Car>().Srav <= -18)
+        else if (car.GetComponent<Checkpoint_Car>().Srav - transform.GetComponent<Checkpoint_Car>().Srav <= -10)
         {
             transform.GetComponent<RCC_CarControllerV3>().maxspeed = 80;
         }
