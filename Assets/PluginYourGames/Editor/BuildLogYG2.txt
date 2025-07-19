@@ -1,0 +1,3 @@
+Build path: E:/RGR/2
+Build number: 1
+PluginYG version: 2.0041
